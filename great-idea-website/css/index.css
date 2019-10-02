@@ -92,14 +92,14 @@ header nav .logo {
 
 
 .cta {
-	margin: 20px;
+	margin-top: 50px;
 	border-width: 2px;
 	border-color: black;
 	display: inline-block;
 }
 
 .cta1 {
-	margin: relative;
+	display: relative;
 	width: 400px;
 	margin-top: 50px;
 	margin-left: 50px;
@@ -107,14 +107,14 @@ header nav .logo {
 }
 
 .cta2 {
-	margin: relative;
+	display: relative;
 	margin-top: 50px;
 	margin-left: 50px;
 	font-size: 26pt;
 }
 
 .cta3 {
-	margin: relative;
-	margin-top: 50px;
+	display: relative;
+	margin-top: -300px;
 	margin-left: 400px;
 }
