@@ -76,18 +76,20 @@ header {
 
 header nav {
 	display: inline-block;
-	margin-top: 150px;
+	margin-top: 40px;
+	/* border: 1px solid lightcoral; */
 }
 
 header nav a {
-	margin: 10px;
-	text-align: center;
-	font-size: 16pt;
+	margin-left: 42px;
+	font-size: 14pt;
+	color: grey;
+	vertical-align: middle;
+	text-decoration: none;
 }
 
-header nav .logo {
-  margin-right: 90px;
-  border-bottom-color: blue;
+.logo {
+    border-bottom-color: blue;
 }
 
 
@@ -100,21 +102,75 @@ header nav .logo {
 
 .cta1 {
 	display: relative;
-	width: 400px;
-	margin-top: 50px;
+	width: 300px;
+	margin-top: 70px;
 	margin-left: 50px;
-	font-size: 40pt;
+	font-size: 50pt;
+	/* border: 1px solid lightcoral; */
 }
 
 .cta2 {
 	display: relative;
-	margin-top: 50px;
+	width: 300px;
+	margin-top: 20px;
 	margin-left: 50px;
 	font-size: 26pt;
+	/* border: 1px solid lightcoral; */
 }
 
 .cta3 {
 	display: relative;
 	margin-top: -300px;
 	margin-left: 400px;
+}
+
+.mainContent1 {
+	display: inline-block;
+}
+
+.featuresBox {
+	margin-top: 20px;
+	width: 400px;
+}
+
+.aboutBox {
+	margin-top: -90px;
+	margin-left: 450px;
+	width: 420px;
+}
+
+.imageContainer {
+	margin-top: 30px;
+}
+
+.mainContent2 {
+	display: inline-block;
+	margin-bottom: 50px;
+}
+
+.servicesBox {
+	margin-top: 30px;
+	width: 250px;
+}
+
+.productBox {
+	margin-top: -142px;
+	width: 250px;
+	margin-left: 310px;
+}
+
+.visionBox {
+	margin-top: -142px;
+	width: 250px;
+	margin-left: 620px;
+}
+
+address {
+	margin-top: 50px;
+}
+
+footer {
+	margin-top: 50px;
+	margin-left: 350px;
+	margin-bottom: 150px;
 }
